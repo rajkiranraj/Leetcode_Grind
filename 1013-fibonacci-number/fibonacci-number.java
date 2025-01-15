@@ -1,7 +1,7 @@
 class Solution {
-  int nextTerm = 0;
+  
     public int fib(int n) {
-      int term1 = 0;
+      int term1 = 0;int nextTerm = 0;
       int term2 = 1;
       for(int i = 0;i<n;i++){
         nextTerm = term1+term2;
