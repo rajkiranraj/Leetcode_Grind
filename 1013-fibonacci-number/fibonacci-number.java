@@ -1,4 +1,5 @@
 class Solution {
+  
     public int fib(int n) {
       int term1 = 0;int nextTerm = 0;
       int term2 = 1;
